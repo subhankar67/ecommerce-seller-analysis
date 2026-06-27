@@ -5,6 +5,14 @@ Customer dissatisfaction directly impacts retention and revenue in e-commerce pl
 This project identifies what drives dissatisfaction, which sellers are underperforming, 
 and builds a predictive model to flag at-risk orders.
 
+## Tools Used
+- Python (pandas, scikit-learn)
+- MySQL — data extraction and joins across 5 tables
+- Power BI — interactive dashboard
+
+## Dashboard Preview
+![Dashboard](dashboard.png)
+
 ## Dataset
 - Source: Olist Brazilian E-Commerce (Kaggle)
 - Size: 110,000+ orders across 5 related tables
@@ -30,10 +38,9 @@ and builds a predictive model to flag at-risk orders.
 
 Top predictor: delivery_delay_days
 
-## Tools
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
 ## Project Structure
+- `olist_analysis.sql` — MySQL queries for seller performance, late delivery risk, revenue trends
 - `olist_ecommerce_analysis.ipynb` — Full analysis notebook
 - `eda_overview.png` — EDA visualizations
 - `seller_health.png` — Seller segmentation charts
